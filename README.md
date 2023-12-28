@@ -4,11 +4,10 @@
 <img alt="html5" src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
 <img alt="css3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 <img alt="javascript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-
 <br/><br/>
-[![Imagendel generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/iconos-vista.png)](https://criscorreas.github.io/password-generator/)
+[![Imagendel generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/generador-vista.png)](https://criscorreas.github.io/password-generator/)
 
-Este generador de contraseñas han sido creados por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**.
+Este generador de contraseñas han sido inspirado por el [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh) y ha sido desarrollado por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**.
 
 ## 👀 Vista Previa
 
@@ -59,11 +58,14 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 
 ## 👌 Recursos Utilizados
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
+- [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh)
+- [Password Generator de Frontend Projects](https://frontendsprojects.com/password-generator/)
 - CSS:
   - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
   - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
-  - [CSS Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
-  - [Instagram Logo CSS bg](https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background)
+- JavaScript:
+  - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
+  - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - Font Awesome
   - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
   - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
