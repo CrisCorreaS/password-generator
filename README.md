@@ -14,7 +14,7 @@ Este generador de contraseñas han sido creados por **[Cristina Correa](https://
 
 ### ➡️ **Demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/password-generator/)**
 
-#### Vista de los iconos
+#### Vista del generador de contraseñas
 ![Vista previadel generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/iconos-vista.png)
 
 #### Vista de las funcionalidades:
@@ -33,12 +33,14 @@ Este generador de contraseñas han sido creados por **[Cristina Correa](https://
 ## 🌱 Características
 
 - **Interfaz:** Diseño sencillo y minimalista.
-- **Animación de los iconos:** Sliding Hover Effects diferentes
+- **Generación de contraseñas:** Genera contraseñas bajo los criterios de incorporar o no letras mayúsculas, minúsculas, símbolos o números.
+- **Copiar directamente:** Al hacer click en el icono de copiar, directamente copia la contraseña
 
 ## 🛠️ Tecnologías Utilizadas
 
 - HTML
 - CSS
+- JavaScript
 
 ## 📓Cómo Usar
 
@@ -49,13 +51,11 @@ Este generador de contraseñas han sido creados por **[Cristina Correa](https://
 
 ## ✨ Contribuciones
 
-¡Las contribuciones son bienvenidas! Si deseas mejorar los iconos existentes, como agregar más contenido o mejorar el diseño, no dudes en enviar tus pull requests. También puedes sugerir nuevas funcionalidades o brindar retroalimentación para hacer que este proyecto sea aún mejor.
+¡Las contribuciones son bienvenidas! Si deseas mejorar el generador de contraseñas existente, como agregar más contenido o mejorar el diseño, no dudes en enviar tus pull requests. También puedes sugerir nuevas funcionalidades o brindar retroalimentación para hacer que este proyecto sea aún mejor.
 
 ## 🎯 Propósito del Proyecto
 
-Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnologías clave para el desarrollo web. La temática, centrada en los iconos de las plataformas de Meta, rinde homenaje a la marca. Es fundamental destacar que los logos utilizados son propiedad de Meta, y sus derechos no me pertenecen. Se emplean exclusivamente con fines educativos e investigativos, con la intención de mejorar mis habilidades como programadora.
-
-**Aviso Importante:** Este proyecto no tiene ninguna afiliación oficial con Meta, y su único propósito es el desarrollo personal y educativo.
+Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnologías clave para el desarrollo web. 
 
 ## 👌 Recursos Utilizados
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
