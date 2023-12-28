@@ -32,8 +32,11 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 ## 🌱 Características
 
 - **Interfaz:** Diseño sencillo y minimalista.
-- **Generación de contraseñas:** Genera contraseñas bajo los criterios de incorporar o no letras mayúsculas, minúsculas, símbolos o números.
-- **Copiar directamente:** Al hacer click en el icono de copiar, directamente copia la contraseña
+- **Generación de contraseñas:**
+  - Crea contraseñas con opciones personalizables: letras mayúsculas, minúsculas, símbolos o números.
+  - Ajusta la longitud de la contraseña según la preferencia del usuario.
+- **Copiar directamente:** Un clic en el ícono de copiar permite una fácil duplicación de la contraseña.
+- **Seguridad:** Evalúa la fortaleza de la contraseña con criterios de bajo, medio y alto nivel de seguridad.
 
 ## 🛠️ Tecnologías Utilizadas
 
