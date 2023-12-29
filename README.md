@@ -77,6 +77,9 @@ A la hora de hacer este proyecto he utilizado los siguientes recursos:
 - JavaScript:
   - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
   - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- Google Fonts:
+  - [How to use Google Fonts](https://developers.google.com/fonts/docs/css2?hl=es-419)
+  - [FAQs about Google Fonts](https://developers.google.com/fonts/faq?hl=es-419)
 - Font Awesome
   - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
   - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
