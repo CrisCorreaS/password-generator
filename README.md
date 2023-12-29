@@ -70,6 +70,9 @@ A la hora de hacer este proyecto he utilizado los siguientes recursos:
 - CSS:
   - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
   - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
+  - [MDN: "::-moz-range-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-range-thumb)
+  - [MDN: "::-webkit-slider-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb)
+  - [MDN: "::-webkit-slider-runnable-track" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-runnable-track)
 - JavaScript:
   - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
   - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
