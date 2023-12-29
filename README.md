@@ -63,6 +63,7 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
 - [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh)
 - [Password Generator de Frontend Projects](https://frontendsprojects.com/password-generator/)
+- [W3Schools How TO - Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
 - HTML:
   - [MDN: WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
   - [MDN: "aria-label" attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)
