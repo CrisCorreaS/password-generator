@@ -63,6 +63,10 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
 - [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh)
 - [Password Generator de Frontend Projects](https://frontendsprojects.com/password-generator/)
+- HTML:
+  - [MDN: WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
+  - [MDN: "aria-label" attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)
+  - [MDN: WAI-ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
 - CSS:
   - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
   - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
