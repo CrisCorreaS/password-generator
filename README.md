@@ -63,7 +63,6 @@ Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnolog
 A la hora de hacer este proyecto he utilizado los siguientes recursos:
 - [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh)
 - [Password Generator de Frontend Projects](https://frontendsprojects.com/password-generator/)
-- [W3Schools How TO - Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
 - HTML:
   - [MDN: WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
   - [MDN: "aria-label" attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)
@@ -74,6 +73,8 @@ A la hora de hacer este proyecto he utilizado los siguientes recursos:
   - [MDN: "::-moz-range-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-range-thumb)
   - [MDN: "::-webkit-slider-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb)
   - [MDN: "::-webkit-slider-runnable-track" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-runnable-track)
+  - [W3Schools How TO - Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
+  - [MDN: "outline"](https://developer.mozilla.org/es/docs/Web/CSS/outline)
 - JavaScript:
   - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
   - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
