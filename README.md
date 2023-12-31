@@ -44,6 +44,39 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 - CSS
 - JavaScript
 
+## 🔎💡 Información
+> [!IMPORTANT]
+> - Este es un proyecto de nivel principiante-intermedio. No se requieren conocimientos muy avanzados de HTML, CSS o JavaScript, pero sí que es necesario saber un poco sobre asincronía.
+> - Está desarrollado utilizando JavaScript Vanilla, así que no se usa ningún framework. Sin embargo, si estás buscando un poco más de desafío, ¡siéntete libre de explorar la posibilidad de integrar un framework!
+> - **Nivel de dificultad del proyecto:** 🔴🔴🔴⭕⭕⭕⭕⭕⭕⭕ (2,5 sobre 10)
+
+> [!TIP]
+> A la hora de desarrollar el proyecto, te pueden venir bien los siguientes recursos:
+> - [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh)
+> - [Password Generator de Frontend Projects](https://frontendsprojects.com/password-generator/)
+> - HTML:
+>    - [MDN: WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
+>    - [MDN: "aria-label" attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)
+>    - [MDN: WAI-ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
+> - CSS:
+>    - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
+>    - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
+>    - [MDN: "::-moz-range-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-range-thumb)
+>    - [MDN: "::-webkit-slider-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb)
+>    - [MDN: "::-webkit-slider-runnable-track" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-runnable-track)
+>    - [W3Schools How TO - Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
+>    - [MDN: "outline"](https://developer.mozilla.org/es/docs/Web/CSS/outline)
+> - JavaScript:
+>    - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
+>    - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+> - Google Fonts:
+>    - [How to use Google Fonts](https://developers.google.com/fonts/docs/css2?hl=es-419)
+>    - [FAQs about Google Fonts](https://developers.google.com/fonts/faq?hl=es-419)
+> - Font Awesome
+>    - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
+>    - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
+
+
 ## 📓Cómo Usar
 
 1. Descarga o clona este repositorio en tu máquina local.
@@ -58,32 +91,6 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 ## 🎯 Propósito del Proyecto
 
 Este proyecto tiene como objetivo principal facilitar mi aprendizaje en tecnologías clave para el desarrollo web. 
-
-## 👌 Recursos Utilizados
-A la hora de hacer este proyecto he utilizado los siguientes recursos:
-- [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh)
-- [Password Generator de Frontend Projects](https://frontendsprojects.com/password-generator/)
-- HTML:
-  - [MDN: WAI-ARIA basics](https://developer.mozilla.org/en-US/docs/Learn/Accessibility/WAI-ARIA_basics)
-  - [MDN: "aria-label" attribute](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label)
-  - [MDN: WAI-ARIA Roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles)
-- CSS:
-  - [Manz.Dev Lenguaje CSS](https://lenguajecss.com/css/)
-  - [Stack Overflow: Display a footer](https://stackoverflow.com/questions/15960290/css-footer-not-displaying-at-the-bottom-of-the-page)
-  - [MDN: "::-moz-range-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-moz-range-thumb)
-  - [MDN: "::-webkit-slider-thumb" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-thumb)
-  - [MDN: "::-webkit-slider-runnable-track" pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/::-webkit-slider-runnable-track)
-  - [W3Schools How TO - Custom Checkbox](https://www.w3schools.com/howto/howto_css_custom_checkbox.asp)
-  - [MDN: "outline"](https://developer.mozilla.org/es/docs/Web/CSS/outline)
-- JavaScript:
-  - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
-  - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- Google Fonts:
-  - [How to use Google Fonts](https://developers.google.com/fonts/docs/css2?hl=es-419)
-  - [FAQs about Google Fonts](https://developers.google.com/fonts/faq?hl=es-419)
-- Font Awesome
-  - [Font Awesome Get Started](https://fontawesome.com/docs/web/setup/get-started)
-  - [Font Awesome Documentation](https://fontawesome.com/v5/docs/web/reference-icons/)
 
 ## ➡️ Licencia
 Este proyecto está licenciado bajo [MIT License](https://opensource.org/license/mit/).
