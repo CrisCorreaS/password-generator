@@ -1,11 +1,14 @@
 :root {
-  --main-bg: #23222a;
-  --main-title: #807c92;
-  --main-text-color: #e7e6eb;
-  --contrast-color: #a3ffae;
+  --main-bg: oklch(25.65% 0.015 291.04);
+  --main-title: oklch(59.74% 0.033 293.7);
+  --main-text-color: oklch(92.71% 0.007 295.44);
+  --contrast-color: oklch(92.22% 0.1407076288135227 147.19874413498218);
   --secondary-dark-color: #23222a;
   --third-dark-color: #191820;
-  --security-very-weak: #f00;
+  --security-very-weak: #ec3e40;
+  --security-weak: #ff9b2b;
+  --security-medium: #f5d800;
+  --security-strong: #01a46d;
 }
 
 * {
@@ -37,7 +40,8 @@ main.container {
 h1 {
   font-size: 2.4rem;
   text-align: center;
-  color: var(--main-title);
+  color: #807c92;
+  color: var(--main-title, oklch(59.74% 0.033 293.7));
   margin-bottom: 3.2rem;
 }
 
@@ -49,28 +53,32 @@ section.password-field {
   padding: 0 3.2rem;
   margin-bottom: 2.4rem;
   background-color: #23222a;
-  background-color: var(--main-bg);
+  background-color: var(--main-bg, oklch(25.65% 0.015 291.04));
 }
 
 header.password-display {
   font-size: 3.2rem;
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
 }
 
 p {
   font-size: 1.8rem;
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
 }
 
 p.password-placeholder {
   font-size: 3.2rem;
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
   opacity: 0.25;
 }
 
 p.newPassword {
   font-size: 3.2rem;
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
   opacity: 1;
 }
 
@@ -82,7 +90,8 @@ div.copy-wrapper {
 
 p.copied-text {
   font-size: 1.8rem;
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
 }
 
 button.copy-btn {
@@ -96,7 +105,8 @@ button.copy-btn {
 
 i.fa-copy {
   font-size: 2.5rem;
-  color: var(--contrast-color);
+  color: #a3ffae;
+  color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
 }
 
 .copy-btn:hover i {
@@ -107,7 +117,7 @@ i.fa-copy {
 form.password-settings {
   padding: 2.4rem 3.2rem 3.2rem;
   background-color: #23222a;
-  background-color: var(--main-bg);
+  background-color: var(--main-bg, oklch(25.65% 0.015 291.04));
 }
 
 /* Longitud de la contraseña */
@@ -120,21 +130,27 @@ header.char-length {
 
 span.char-count {
   font-size: 3.2rem;
-  color: var(--contrast-color);
+  color: #a3ffae;
+  color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
 }
 
 input.char-length-slider {
+  --seek-before-width: 50%;
   -webkit-appearance: none;
   margin-right: 15px;
   width: 100%;
   height: 7px;
   margin-bottom: 3.6rem;
-  background: var(--third-dark-color);
+  background: var(--third-dark-color, #191820);
   background-image: linear-gradient(
     var(--contrast-color),
     var(--contrast-color)
   );
-  background-size: 50% 100%;
+  background-size: var(--seek-before-width) 100%;  
+  /* 
+  --seek-before-width es una variable dinámica que cambia de valor con el script y a la que asignamos un valor
+  inicial por defecto hasta que cambie de valor
+   */
   background-repeat: no-repeat;
 }
 
@@ -142,15 +158,18 @@ input.char-length-slider {
   -webkit-appearance: none;
   height: 28px;
   width: 28px;
-  border: 2px solid var(--main-text-color);
+  border: #e7e6eb;
+  border: 2px solid var(--main-text-color, oklch(92.71% 0.007 295.44));
   border-radius: 50%;
-  background-color: var(--main-text-color);
+  background-color: #e7e6eb;
+  background-color: var(--main-text-color, oklch(92.71% 0.007 295.44));
   cursor: pointer;
 }
 
 .char-length-slider::-webkit-slider-thumb:hover {
-  border: 2px solid var(--contrast-color);
-  background-color: var(--third-dark-color);
+  border: #a3ffae;
+  border: 2px solid var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
+  background-color: var(--third-dark-color, #191820);
 }
 
 .char-length-slider::-webkit-slider-runnable-track {
@@ -164,16 +183,19 @@ input.char-length-slider {
   -moz-appearance: none;
   height: 28px;
   width: 28px;
-  border: 2px solid var(--main-text-color);
+  border: #e7e6eb;
+  border: 2px solid var(--main-text-color, oklch(92.71% 0.007 295.44));
   border-radius: 50%;
-  background-color: var(--main-text-color);
+  background-color: #e7e6eb;
+  background-color: var(--main-text-color, oklch(92.71% 0.007 295.44));
   cursor: pointer;
 }
 
 .char-length-slider::-moz-range-thumb:hover,
 .char-length-slider::-moz-range-thumb:active {
-  border: 2px solid var(--contrast-color);
-  background-color: var(--third-dark-color);
+  border: #a3ffae;
+  border: 2px solid var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
+  background-color: var(--third-dark-color, #191820);
 }
 
 /* Checkboxs de diferentes parámetros que incluír en la contraseña */
@@ -206,7 +228,8 @@ span.custom-checkbox {
   left: 0;
   height: 2rem;
   width: 2rem;
-  border: 2px solid var(--main-text-color);
+  border: #e7e6eb;
+  border: 2px solid var(--main-text-color, oklch(92.71% 0.007 295.44));
   cursor: pointer;
 }
 
@@ -218,12 +241,15 @@ span.custom-checkbox {
 }
 
 .custom-checkbox:hover {
-  border-color: var(--contrast-color);
+  border: #a3ffae;
+  border-color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
 }
 
 input[type="checkbox"]:checked ~ .custom-checkbox {
-  border-color: var(--contrast-color);
-  background-color: var(--contrast-color);
+  border: #a3ffae;
+  border-color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
+  background-color: #a3ffae;
+  background-color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
 }
 
 input[type="checkbox"]:checked ~ .custom-checkbox::after {
@@ -242,11 +268,12 @@ section.strength-box {
   justify-content: space-between;
   font-size: 1.8rem;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
   margin-bottom: 3.2rem;
   padding: 0 3.2rem;
   height: 7.2rem;
-  background-color: var(--third-dark-color);
+  background-color: var(--third-dark-color, #191820);
 }
 
 div.strength-rating {
@@ -257,7 +284,8 @@ div.strength-rating {
 
 span.strength-rating-text {
   font-size: 2.4rem;
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
 }
 
 div.strength-rating-bars {
@@ -268,7 +296,8 @@ div.strength-rating-bars {
 div.bar {
   width: 1rem;
   height: 2.8rem;
-  border: 2px solid var(--main-text-color);
+  border: #e7e6eb;
+  border: 2px solid var(--main-text-color, oklch(92.71% 0.007 295.44));
   background: none;
 }
 
@@ -281,31 +310,36 @@ button.generate-btn {
   font-family: inherit;
   font-size: 1.8rem;
   text-transform: uppercase;
-  color: var(--secondary-dark-color);
+  color: var(--secondary-dark-color, #23222a);
   width: 100%;
   padding: 1.9rem 0;
-  border: 2px solid var(--contrast-color);
-  background-color: var(--contrast-color);
+  border: #a3ffae;
+  border: 2px solid var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
+  background-color: #a3ffae;
+  background-color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
   cursor: pointer;
 }
 
 .fa-arrow-right {
   color: #23222a;
-  color: var(--main-bg);
+  color: var(--main-bg, oklch(25.65% 0.015 291.04));
   font-size: 1.5rem;
 }
 
 .generate-btn:hover {
-  color: var(--contrast-color);
-  background-color: var(--secondary-dark-color);
+  color: #a3ffae;
+  color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
+  background-color: var(--secondary-dark-color, #23222a);
 }
 
 .generate-btn:hover path {
-  fill: var(--contrast-color);
+  fill: #a3ffae;
+  fill: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
 }
 
 .generate-btn:hover .fa-arrow-right {
-  color: var(--contrast-color);
+  color: #a3ffae;
+  color: var(--contrast-color, oklch(92.22% 0.1407076288135227 147.19874413498218));
 }
 
 /* FOOTER */
@@ -314,10 +348,13 @@ footer {
   left: 0px;
   bottom: 0px;
   background-color: #23222a;
-  background-color: var(--main-bg);
-  color: var(--main-text-color);
+  background-color: var(--main-bg, oklch(25.65% 0.015 291.04));
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
-  border-top: 1px solid var(--contrast-color);
+  border-top: #a3ffae;
+  border-top: 1px solid var(--contrast-color,
+    oklch(92.22% 0.1407076288135227 147.19874413498218));
   width: 100%;
   height: 20px;
   text-align: center;
@@ -332,13 +369,27 @@ small {
 }
 
 small > a {
-  color: var(--main-text-color);
+  color: #e7e6eb;
+  color: var(--main-text-color, oklch(92.71% 0.007 295.44));
   font-size: 15px;
 }
 
 div.very-weak{
-  width: 1rem;
-  height: 2.8rem;
-  border: 2px solid red;
-  background: red;
+  border: 2px solid var(--security-very-weak, red);
+  background: var(--security-very-weak, red);
+}
+
+div.weak {
+  border: 2px solid var(--security-weak, orange);
+  background: var(--security-weak, orange);
+}
+
+div.medium {
+  border: 2px solid var(--security-medium, yellow);
+  background: var(--security-medium, yellow);
+}
+
+div.strong {
+  border: 2px solid var(--security-strong, green);
+  background: var(--security-strong, green);
 }
