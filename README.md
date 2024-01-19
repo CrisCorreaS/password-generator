@@ -13,20 +13,35 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 
 ### ➡️ **Demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/password-generator/)**
 
-#### Vista del generador de contraseñas
+### Vista del generador de contraseñas
 ![Vista previadel generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/iconos-vista.png)
 
-#### Vista de las funcionalidades:
-##### Funcionalidad 1️⃣:
+### Funcionalidades:
+ 1️⃣ **Gestión de un Rango Dinámico**:
+  - El sistema permite la gestión eficiente de un rango dinámico para adaptarse a diversas necesidades y requisitos de seguridad.
+
+ 2️⃣ **Generación de Contraseñas Personalizadas**:
+  - Define la longitud de la contraseña según la necesidad.
+  - Especifica si la contraseña debe contener letras mayúsculas, minúsculas, números y/o símbolos para una personalización precisa.
+
+ 3️⃣ **Copiado Rápido de Contraseña**:
+  - Facilita el proceso al proporcionar la opción de copiar la contraseña generada con un simple clic en el botón correspondiente.
+
+ 4️⃣ **Evaluación de Seguridad**:
+  - Ofrece una evaluación de la seguridad de las contraseñas generadas.
+  - Clasifica la fortaleza de las contraseñas desde muy débil hasta fuerte, proporcionando una indicación visual de la robustez de cada contraseña.
+
+### Vista de las funcionalidades:
+#### Funcionalidad 1️⃣: 
 ![Vista previa del comportamiento de los primeros iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature1.gif)
 
-##### Funcionalidad 2️⃣:
+#### Funcionalidad 2️⃣:
 ![Vista previa del comportamiento de los segundos iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature2.gif)
 
-##### Funcionalidad 3️⃣:
+#### Funcionalidad 3️⃣:
 ![Vista previa del comportamiento de los terceros iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature3.gif)
 
-##### Funcionalidad 4️⃣:
+#### Funcionalidad 4️⃣:
 ![Vista previa del comportamiento de los cuartos iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature4.gif)
 
 ## 🌱 Características
@@ -70,6 +85,7 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 >    - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
 >    - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 >    - [How to Create Copy to Clipboard Button](https://www.geeksforgeeks.org/how-to-create-copy-to-clipboard-button/)
+>    - [W3Schools How TO - Copy Text to Clipboard](https://www.w3schools.com/howto/howto_js_copy_clipboard.asp)
 >    - [W3Schools - oninput Event](https://www.w3schools.com/jsref/event_oninput.asp)
 >    - [Creating a custom CSS range slider with JavaScript](https://blog.logrocket.com/creating-custom-css-range-slider-javascript-upgrades/)
 >    - [MDN: "CSSStyleDeclaration: setProperty() method"](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty)
