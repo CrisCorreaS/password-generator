@@ -69,6 +69,10 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 > - JavaScript:
 >    - [Manz.Dev Lenguaje Javascript](https://lenguajejs.com/javascript/)
 >    - [JavaScript MDN Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+>    - [How to Create Copy to Clipboard Button](https://www.geeksforgeeks.org/how-to-create-copy-to-clipboard-button/)
+>    - [W3Schools - oninput Event](https://www.w3schools.com/jsref/event_oninput.asp)
+>    - [Creating a custom CSS range slider with JavaScript](https://blog.logrocket.com/creating-custom-css-range-slider-javascript-upgrades/)
+>    - [MDN: "CSSStyleDeclaration: setProperty() method"](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration/setProperty)
 > - Google Fonts:
 >    - [How to use Google Fonts](https://developers.google.com/fonts/docs/css2?hl=es-419)
 >    - [FAQs about Google Fonts](https://developers.google.com/fonts/faq?hl=es-419)
