@@ -118,9 +118,18 @@ function gestionContrasinal(e) {
 
 BOTON_SUBMIT.addEventListener("click", gestionContrasinal, false);
 
-function copiarContrasinal() {
+async function copiarContrasinal() {
   if (PASSWORD.innerHTML != "P4$5W0rD!") {
-    navigator.clipboard.writeText(PASSWORD.innerHTML);
+    try {
+      await navigator.clipboard.writeText(PASSWORD.innerHTML);
+      console.log("Texto copiado al portapapeles");
+      BOTON_COPIAR.classList.add("active");
+      setTimeout(() => {
+        BOTON_COPIAR.classList.remove("active");
+      }, 2500)
+    } catch (error) {
+      console.error("No se pudo copiar el texto al portapapeles: ", error);
+    }
   }
 }
 
