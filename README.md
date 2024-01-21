@@ -19,29 +19,27 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 ### Funcionalidades:
  1️⃣ **Gestión de un Rango Dinámico**:
   - El sistema permite la gestión eficiente de un rango dinámico para adaptarse a diversas necesidades y requisitos de seguridad.
+    
+![Vista previa de la gestión de un rango dinámico](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature1.gif)
+    
 
  2️⃣ **Generación de Contraseñas Personalizadas**:
   - Define la longitud de la contraseña según la necesidad.
   - Especifica si la contraseña debe contener letras mayúsculas, minúsculas, números y/o símbolos para una personalización precisa.
+    
+![Vista previa de la generación de contraseñas personalizadas](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature2.gif)
+    
 
  3️⃣ **Copiado Rápido de Contraseña**:
   - Facilita el proceso al proporcionar la opción de copiar la contraseña generada con un simple clic en el botón correspondiente.
+    
+![Vista previa de la copia de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature3.gif)
+    
 
  4️⃣ **Evaluación de Seguridad**:
   - Ofrece una evaluación de la seguridad de las contraseñas generadas.
   - Clasifica la fortaleza de las contraseñas desde muy débil hasta fuerte, proporcionando una indicación visual de la robustez de cada contraseña.
-
-### Vista de las funcionalidades:
-#### Funcionalidad 1️⃣: 
-![Vista previa de la gestión de un rango dinámico](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature1.gif)
-
-#### Funcionalidad 2️⃣:
-![Vista previa de la generación de contraseñas personalizadas](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature2.gif)
-
-#### Funcionalidad 3️⃣:
-![Vista previa de la copia de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature3.gif)
-
-#### Funcionalidad 4️⃣:
+    
 ![Vista previa de la evaluación de seguridad](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature4.gif)
 
 ## 🌱 Características
