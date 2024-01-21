@@ -126,7 +126,7 @@ async function copiarContrasinal() {
       BOTON_COPIAR.classList.add("active");
       setTimeout(() => {
         BOTON_COPIAR.classList.remove("active");
-      }, 2500)
+      }, 500)
     } catch (error) {
       console.error("No se pudo copiar el texto al portapapeles: ", error);
     }
