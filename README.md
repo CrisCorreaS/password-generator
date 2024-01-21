@@ -5,7 +5,7 @@
 <img alt="css3" src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 <img alt="javascript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 <br/><br/>
-[![Imagendel generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/generador-vista.png)](https://criscorreas.github.io/password-generator/)
+[![Imagen del generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/generador-vista.png)](https://criscorreas.github.io/password-generator/)
 
 Este generador de contraseñas han sido inspirado por el [Password Generator App challenge de Frontend Mentor](https://www.frontendmentor.io/challenges/password-generator-app-Mr8CLycqjh) y ha sido desarrollado por **[Cristina Correa](https://www.linkedin.com/in/cristina-correa-segade/)**.
 
@@ -14,7 +14,7 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 ### ➡️ **Demo desplegada en GitHub Pages:** **[Haz click aquí](https://criscorreas.github.io/password-generator/)**
 
 ### Vista del generador de contraseñas
-![Vista previadel generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/iconos-vista.png)
+![Vista previa del generador de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/img/visualizaci%C3%B3n/generador-vista.png)
 
 ### Funcionalidades:
  1️⃣ **Gestión de un Rango Dinámico**:
@@ -33,16 +33,16 @@ Este generador de contraseñas han sido inspirado por el [Password Generator App
 
 ### Vista de las funcionalidades:
 #### Funcionalidad 1️⃣: 
-![Vista previa del comportamiento de los primeros iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature1.gif)
+![Vista previa de la gestión de un rango dinámico](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature1.gif)
 
 #### Funcionalidad 2️⃣:
-![Vista previa del comportamiento de los segundos iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature2.gif)
+![Vista previa de la generación de contraseñas personalizadas](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature2.gif)
 
 #### Funcionalidad 3️⃣:
-![Vista previa del comportamiento de los terceros iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature3.gif)
+![Vista previa de la copia de contraseñas](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature3.gif)
 
 #### Funcionalidad 4️⃣:
-![Vista previa del comportamiento de los cuartos iconos](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature4.gif)
+![Vista previa de la evaluación de seguridad](https://github.com/CrisCorreaS/password-generator/blob/main/video/feature4.gif)
 
 ## 🌱 Características
 
